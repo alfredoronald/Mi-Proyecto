@@ -65,8 +65,40 @@ header {
     display: none;
 }
 
-
 .menu label {
     cursor: pointer;
     display: none;
+}
+
+.header-content {
+    text-align: center;
+    
+}
+
+.header-content h1 {
+    padding: 10px 400px;
+    font-size: 25px;
+    line-height: 35px;
+    color: #f9fafc;
+    margin-bottom: 30px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: #f9fafc;
+    padding: 0 400px;
+    margin-bottom: 28px;
+}
+
+.button-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #e5ae90;
+    color: #f9fafc;
+    border-radius: 10px;
+    
+}
+
+.button-1:hover {
+    background-color: #6f6764;
 }
