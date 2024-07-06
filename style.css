@@ -139,3 +139,63 @@ header {
     font-weight: 700;
     font-size: 18px;
   }
+
+  .footer {
+    position: absolute;
+    width: 100%;
+   
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+
+}
+.footer p{
+    color: #f9fafc;
+    padding: 10px 580px;
+    
+}
+.footer-links {
+    
+    padding: 25px 580px 10px 580px;
+    display: flex;
+    position: initial;
+    border-color: #f9fafc;
+    align-items: center;
+    justify-content: space-between;
+    left: 100px;
+    
+}
+
+.border-img{
+    border-radius: 36px;
+    background-color: #fffdfc;
+    justify-content: center;
+    cursor: pointer;
+    
+    
+}
+.footer-links img {
+    width: 32px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+
+    
+    
+}
+.footer-list {
+    cursor: pointer;
+    padding: 10px 400px;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list li a{
+    color: #f1f1f1;
+}
+.footer-list li a:hover{
+    color: #e5ae90;
+
+}
