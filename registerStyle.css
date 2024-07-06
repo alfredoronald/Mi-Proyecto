@@ -65,3 +65,92 @@ body {
 #menu {
     display: none;
 }
+
+.wrap {
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background: transparent;
+    border: 2px rgb(8, 8, 8) solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(20px);
+}
+
+.form-box  h1{
+    font-size: 2em;
+    color: #0b0b0b;
+    text-align: center;
+}
+
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -3px;
+}
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #0b0b0b;
+    margin: 30px 0;
+}
+
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #0b0b0b;
+    font-weight: 500;
+    pointer-events: none;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 550;
+    padding: 2px 35px 2px 5px;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #0b0b0b;
+    line-height: 50px;
+}
+
+.remenber-forgot a {
+    color: #0b0b0b;
+    text-decoration: none;
+    font-size: .9em;
+    font-weight: 500;
+    display: flex;
+    margin: -15px 0 15px;
+    display: flex;
+}
+
+.remenber-forgot a:hover{
+    text-decoration: underline;
+}
+
+.button-2 {
+    width: 100%;
+    height: 35px;
+    background: #0b0b0b;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: azure;
+    font-weight: 600;
+
+}
