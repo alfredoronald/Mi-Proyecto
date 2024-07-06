@@ -58,3 +58,66 @@ header{
 #menu {
     display: none;
 }
+
+.buy-add {
+    position: relative;
+    width: 350px;
+    height: 40px;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-add label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buy-add img{
+    width: 260px;
+    height: 240px;
+}
+
+.buy-add h1 {
+    height: 16.5vh;
+    display: flex;
+    font-weight: 800;
+    text-align: center;
+    font-size: 2.1em;
+}
+
+.buy-add p {
+    height: 50px;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+}
+
+.buy-add a {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #f1f1f1;
+}
+
+.buy-add a:hover{
+    color: #6a4444;
+    
+}
+
+
+.button-3 {
+    
+    width: 100%;
+    background: #0b0b0b;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: azure;
+    font-weight: 600;
+
+}
