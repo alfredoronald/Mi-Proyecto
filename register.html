@@ -16,7 +16,7 @@
                     <li><a href="/index.html">Inicio</a></li>
                     <li><a href="/register.html">Cuenta</a></li>
                     <li><a href="#">Productos</a></li>
-                    <li><a href="/buy.html">Carrito</a></li>
+                    <li><a href="/addBuy.html">Carrito</a></li>
                 </ul>
             </nav>
         </div>
@@ -24,11 +24,12 @@
         <div class="wrap">
             <div class="form-box login">
                 <h1>Registrarse</h1>
-                <form action="#">
+                <form action="#" id="form">
                     <div class="input-box">
                         <span class="icon"></span>
-                        <input id="email" type="email" name="email">
+                        <input id="email" type="email" required>
                         <label for="email">Email</label>
+                        <div class="error-message" id="emailError"></div>
                     </div>
     
                     <div class="input-box">
@@ -48,7 +49,7 @@
 
         <script src="https://www.gstatic.com/firebasejs/10.1.0/firebase-app-compat.js"></script>
         <script src="https://www.gstatic.com/firebasejs/10.1.0/firebase-firestore-compat.js"></script>
-        <script src="prueba.js"></script>
+        <script src="main.js"></script>
 
     </header>
 </body>

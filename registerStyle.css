@@ -79,6 +79,12 @@ body {
     backdrop-filter: blur(20px);
 }
 
+.error-message {
+    font-size: 10px;
+    width: 250px;
+    height: 80px;
+}
+
 .form-box  h1{
     font-size: 2em;
     color: #0b0b0b;
@@ -134,7 +140,7 @@ body {
     font-size: .9em;
     font-weight: 500;
     display: flex;
-    margin: -15px 0 15px;
+    margin: -5px 0 15px;
     display: flex;
 }
 

@@ -1,11 +1,11 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyBQ4Ggv-xegIMdgv18ajfezdj0ZXKXcQbk",
-    authDomain: "register-7e8dc.firebaseapp.com",
-    projectId: "register-7e8dc",
-    storageBucket: "register-7e8dc.appspot.com",
-    messagingSenderId: "1038711927042",
-    appId: "1:1038711927042:web:338496a99188beb1d2d21b",
-    measurementId: "G-H3LVCXLV9M"
+    apiKey: "AIzaSyDDOHftgcWe-SQsjBu6bxRFO6MUg-a5k_k",
+    authDomain: "mi-pagina-web-d8b39.firebaseapp.com",
+    projectId: "mi-pagina-web-d8b39",
+    storageBucket: "mi-pagina-web-d8b39.appspot.com",
+    messagingSenderId: "60249625046",
+    appId: "1:60249625046:web:66f1cb61fd407f952e9477",
+    measurementId: "G-MQ64YCS1K7"
   };
 
   // Initialize Firebases
@@ -26,7 +26,7 @@ document.getElementById("form").addEventListener("submit", async (event) => {
   let password = document.getElementById("password");
   let passwordError = document.getElementById("passwordError");
   let passwordPattern =
-    /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&#.$($)$-$_])[A-Za-z\d$@$!%*?&#.$($)$-$_]{8,15}$/;
+    /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d$@$!%*?&]{6,15}/;
 
   validationPassword(password, passwordError, passwordPattern);
 
@@ -52,7 +52,7 @@ function validationEmail(email, emailError, emailPattern) {
 function validationPassword(password, passwordError, passwordPattern) {
   if (!passwordPattern.test(password.value)) {
     passwordError.textContent =
-      "La contraseña ";
+      "La contraseña debe tener al menos 6 caracteres , números, mayúsculas y minúsculas";
     passwordError.classList.add("error-message");
   } else {
     passwordError.textContent = "";
@@ -62,7 +62,7 @@ function validationPassword(password, passwordError, passwordPattern) {
 
 async function addUserToDatabase(email, password) {
   try {
-    await db.collection("users").add({
+    await db.collection("Users").add({
       email: email.value,
       password: password.value,
     });
