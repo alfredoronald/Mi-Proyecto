@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+
+section {
+    background-image: linear-gradient(
+          rgba(0,0,0,0.5),
+          rgba(0,0,0,0.5)),
+          url(/src/assets/fondo.jpg), none;
+    background-size: cover;
+    background-position: center;
+    height: 780px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.presentation{
+  padding: 200px 100px;
+  text-align: center;
+}
+
+.presentation-content h1 {
+  padding: 10px 400px;
+  font-size: 25px;
+  line-height: 35px;
+  color: #f9fafc;
+  margin-bottom: 30px;
+}
+
+.presentation-content p {
+  display: flex;
+  font-size: 16px;
+  color: #f9fafc;
+  padding: 0 400px;
+  margin-bottom: 28px;
+}
+
+.products {
+  text-align: center;
+  background: #fff;
+}
+
+.products h1 {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+.products-content {
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap;
+  padding: 30px 250px;
+  align-items: center;
+}
+
+.image-content {
+  margin: 25px 80px;
+}
+
+.image-content img{
+  cursor: pointer;
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.image-content p {
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.image-content p:hover{
+  color: #4c4848;
+  
+}
+
+footer {
+  top: 270vh;
+  position: absolute;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+}
+
+footer p{
+  color: #f9fafc;
+  padding: 10px 580px;
+  
+}
+.footer-links {
+  padding: 25px 560px 10px 560px;
+  display: flex;
+  position: initial;
+  border-color: #f9fafc;
+  align-items: center;
+  justify-content: space-between;
+  left: 100px;
+}
+
+.footer-links li a{
+  color: #f1f1f1;
+}
+.footer-links li a:hover{
+  color: #e5ae90;
+
+}
+
+
+
+.footer-list {
+  cursor: pointer;
+  padding: 10px 400px;
+  color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list li a{
+  color: #f1f1f1;
+}
+.footer-list li a:hover{
+  color: #e5ae90;
+
+}
+
+
+
