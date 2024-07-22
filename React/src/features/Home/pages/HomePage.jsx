@@ -1,4 +1,4 @@
-
+import React from 'react'
 import NavBar from '../../../Components/NavBar/NavBar'
 import './HomePage.css'
 import { Button } from '../../../Components/Button/Button'
