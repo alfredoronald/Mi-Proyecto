@@ -104,13 +104,12 @@ header{
 }
 
 .buy-add a:hover{
-    color: #6a4444;
+    color: #9c9b9b;
     
 }
 
 
 .button-3 {
-    
     width: 100%;
     background: #0b0b0b;
     border: none;
@@ -119,5 +118,8 @@ header{
     cursor: pointer;
     color: azure;
     font-weight: 600;
+}
 
+button:hover{
+    background-color: #5a5858;
 }

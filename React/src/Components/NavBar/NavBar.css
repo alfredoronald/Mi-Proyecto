@@ -1,37 +1,36 @@
 .header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 10%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
 }
 
 .logo {
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 22px;
-    color: #fff;
-    font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 600;
 }
 
-.logo:hover{
-    color: #4c4848;
+.logo:hover {
+  color: #4c4848;
 }
-.navbar a{
-    cursor: pointer;
-    text-decoration: none;
-    position: relative;
-    font-size: 20px;
-    color: #fff;
-    font-weight: 500;
-    margin-left: 40px;
-    
+.navbar a {
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 40px;
 }
 
-.navbar a:hover{
-    color: #4c4848;
+.navbar a:hover {
+  color: #4c4848;
 }

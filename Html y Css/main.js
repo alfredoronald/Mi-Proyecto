@@ -1,17 +1,13 @@
-const firebaseConfig = {
-    apiKey: "AIzaSyDDOHftgcWe-SQsjBu6bxRFO6MUg-a5k_k",
-    authDomain: "mi-pagina-web-d8b39.firebaseapp.com",
-    projectId: "mi-pagina-web-d8b39",
-    storageBucket: "mi-pagina-web-d8b39.appspot.com",
-    messagingSenderId: "60249625046",
-    appId: "1:60249625046:web:66f1cb61fd407f952e9477",
-    measurementId: "G-MQ64YCS1K7"
-  };
+async function cargarDatos() {
+  const response = await fetch("firebaseconfi.json");
+  const config = await response.json();
+  console.log(config.apiKey);
+}
 
-  // Initialize Firebases
+
 firebase.initializeApp(firebaseConfig);
 
-// Initialize Cloud Firestore and get a reference to the service
+
 const db = firebase.firestore();
 
 document.getElementById("form").addEventListener("submit", async (event) => {
@@ -30,12 +26,8 @@ document.getElementById("form").addEventListener("submit", async (event) => {
 
   validationPassword(password, passwordError, passwordPattern);
 
-  //Si todos los campos son válidos enviar formulario
-  if (
-    !emailError.textContent &&
-    !passwordError.textContent 
-  ) {
-    await addUserToDatabase( email, password);
+  if (!emailError.textContent && !passwordError.textContent) {
+    await addUserToDatabase(email, password);
   }
 });
 

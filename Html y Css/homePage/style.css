@@ -15,7 +15,7 @@ header {
     background-image: linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(Imagenes/pexels-kristingroth2-54203.jpg);
+        url(/Html%20y%20Css/Imagenes/pexels-kristingroth2-54203.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,8 +28,6 @@ header {
     max-width: 1300px;
     margin: 0 auto;
 }
-
-
 
 .menu {
     position: absolute;
@@ -59,7 +57,7 @@ header {
 }
 
 .menu .navbar ul li a:hover {
-    color: #454857;
+    color: #a1a1a1;
 }
 #menu {
     display: none;
@@ -96,11 +94,15 @@ header {
     background-color: #e5ae90;
     color: #f9fafc;
     border-radius: 10px;
-    
+}
+
+.button-1 a {
+    font-weight: 600;
+    font-size: 14px;
 }
 
 .button-1:hover {
-    background-color: #6f6764;
+    background-color: #c58973;
 }
 
 .feature-products {
