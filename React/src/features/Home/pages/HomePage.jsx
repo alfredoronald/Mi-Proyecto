@@ -63,16 +63,24 @@ const HomePage = () => {
         <div>
           <ul className="footer-links">
             <li>
-              <a href="#">Facebook</a>
+              <a href="https://m.facebook.com/login/?locale=es_LA">
+                Facebook
+              </a>
             </li>
             <li>
-              <a href="#s">Instagram</a>
+              <a href="https://www.instagram.com/accounts/login/?hl=en">
+                Instagram
+              </a>
             </li>
             <li>
-              <a href="#s">Tiktok </a>
+              <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D">
+                Twiter 
+              </a>
             </li>
             <li>
-              <a href="#s">G-mail</a>
+              <a href="https://www.tiktok.com/login">
+                Tiktok 
+              </a>
             </li>
           </ul>
         </div>
