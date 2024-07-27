@@ -1,8 +1,25 @@
-# React + Vite
+# **Bienvenidos a Sweet Dreams** #
+ 
+## Descripcion 
+Sweet Dreams es una tienda de ropa online 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Instalación
 
-Currently, two official plugins are available:
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/alfredoronald/Mi-Proyecto.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Navega al directorio del proyecto
+    ```bash
+   cd Mi-Proyecto/React
+
+3. Instala las dependencias:
+    ```bash
+    npm install
+    ```
+
+4. Inicia el servidor de desarrollo:
+    ```bash
+    npm run dev
+    ```
+

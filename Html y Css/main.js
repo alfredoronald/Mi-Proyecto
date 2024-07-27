@@ -1,12 +1,8 @@
 async function cargarDatos() {
-  const response = await fetch("firebaseconfi.json");
+  const response = await fetch("/Html y Css/firebaseconfi.json");
   const config = await response.json();
-  console.log(config.apiKey);
+  firebase.initializeApp(config);
 }
-
-
-firebase.initializeApp(firebaseConfig);
-
 
 const db = firebase.firestore();
 
