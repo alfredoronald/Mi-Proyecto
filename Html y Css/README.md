@@ -1,7 +1,8 @@
 # **Bienvenidos a Sweet Dreams** #
  
 ## Descripcion 
-Sweet Dreams es una tienda de ropa online 
+Sweet Dreams es una tienda de ropa online que cuenta con diferentes productos(Sudaderas, Camisetas, Joggers y Accesorios).
+A esta puedes registrarte mediante tu correo electronico(gmail).
 
 ### Instalación
 

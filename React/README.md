@@ -1,7 +1,7 @@
 # **Bienvenidos a Sweet Dreams** #
  
 ## Descripcion 
-Sweet Dreams es una tienda de ropa online 
+Sweet Dreams es una tienda de ropa online que cuenta con diferentes productos(Sudaderas, Camisetas, Joggers y Accesorios).
 
 ### Instalación
 
@@ -22,4 +22,13 @@ Sweet Dreams es una tienda de ropa online
     ```bash
     npm run dev
     ```
+
+
+## Tecnologías Utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- React
+
 
