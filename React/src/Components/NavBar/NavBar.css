@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0; 
+ 
+}
+
 .header {
   position: absolute;
   top: 0;
@@ -7,7 +13,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
 }
 
 .logo {
@@ -21,16 +26,32 @@
 .logo:hover {
   color: #4c4848;
 }
-.navbar a {
-  cursor: pointer;
-  text-decoration: none;
-  position: relative;
-  font-size: 20px;
-  color: #fff;
-  font-weight: 500;
-  margin-left: 40px;
+
+.navbar {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+  a {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    margin: 15px;
+  }
+
+  a:hover {
+    color: rgb(34, 34, 35);
+    text-decoration: none;
+  }
+
 }
 
-.navbar a:hover {
-  color: #4c4848;
-}
