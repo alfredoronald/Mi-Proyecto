@@ -47,8 +47,8 @@ export default function NavBar () {
         
           <li>
             <Link
-              to={"/"}
-              onClick={() => handleHover("/")}
+              to={"/carrito"}
+              onClick={() => handleHover("/carrito")}
             >
               Carrito
             </Link>
