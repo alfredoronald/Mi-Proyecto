@@ -5,10 +5,12 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Root from './routes/Root';
 import ErrorPage from './features/Pages/Error/ErrorPage';
 import HomePage from './features/Pages/Home/HomePage';
-import Register from './features/Pages/Register/Register';
+
 import AddBuy from './features/Pages/AddBuy/AddBuy';
+import Auth from './features/Pages/Register/AuthFirebase';
 
 const router = createBrowserRouter([
+  
   {
     path: "/",
     element: <Root />,
@@ -20,7 +22,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/cuenta",
-        element: <Register />,
+        element: <Auth />,
       },
       {
         path: "carrito",

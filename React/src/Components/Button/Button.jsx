@@ -3,5 +3,5 @@ import './Button.css'
 
 export function Button(props) {
   const { children } = props
-  return <button>{children}</button>
+  return <button type='submit'>{children}</button>
 }

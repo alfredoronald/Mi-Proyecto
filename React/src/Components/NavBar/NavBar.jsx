@@ -10,10 +10,16 @@ export default function NavBar () {
 
   return (
     <header className="header">
-      <a href="/" className="logo">
-        {' '}
-        Sweet Dreams
-      </a>
+      <ul className="logo">
+          <Link
+            to={"/inicio"}
+            onClick={() => handleHover("/inicio")}
+          >
+            Sweet Dreams
+          </Link>
+      </ul>
+      
+      
 
       <nav className="navbar">
         <ul>
@@ -32,7 +38,7 @@ export default function NavBar () {
               to={"/"}
               onClick={() => handleHover("/")}
             >
-              Producto
+              Productos
             </Link>
           </li>
       
