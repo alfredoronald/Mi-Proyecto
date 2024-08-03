@@ -8,6 +8,7 @@ import HomePage from './features/Pages/Home/HomePage';
 
 import AddBuy from './features/Pages/AddBuy/AddBuy';
 import Auth from './features/Pages/Register/AuthFirebase';
+import Products from './features/Pages/Products/Products';
 
 const router = createBrowserRouter([
   
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "/inicio",
         element: <HomePage />,
+      },
+      {
+        path: "/product",
+        element: <Products />,
       },
       {
         path: "/cuenta",
